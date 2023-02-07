@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "9Abauvso/HW5E0CqMz6iHPjhXQrIKc3ailRaN4ldhS0=",
+  "Source": "flight_data_server",
+  "BasePath": "_content/flight_data_server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

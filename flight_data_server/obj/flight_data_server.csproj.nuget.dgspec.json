@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\erol\\source\\repos\\flight_data_server\\flight_data_server\\flight_data_server.csproj": {}
+    "D:\\.NET\\Flight-Data-Server-Asp.Net\\flight_data_server\\flight_data_server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\erol\\source\\repos\\flight_data_server\\flight_data_server\\flight_data_server.csproj": {
+    "D:\\.NET\\Flight-Data-Server-Asp.Net\\flight_data_server\\flight_data_server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\erol\\source\\repos\\flight_data_server\\flight_data_server\\flight_data_server.csproj",
+        "projectUniqueName": "D:\\.NET\\Flight-Data-Server-Asp.Net\\flight_data_server\\flight_data_server.csproj",
         "projectName": "flight_data_server",
-        "projectPath": "C:\\Users\\erol\\source\\repos\\flight_data_server\\flight_data_server\\flight_data_server.csproj",
-        "packagesPath": "C:\\Users\\erol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\erol\\source\\repos\\flight_data_server\\flight_data_server\\obj\\",
+        "projectPath": "D:\\.NET\\Flight-Data-Server-Asp.Net\\flight_data_server\\flight_data_server.csproj",
+        "packagesPath": "C:\\Users\\erolg\\.nuget\\packages\\",
+        "outputPath": "D:\\.NET\\Flight-Data-Server-Asp.Net\\flight_data_server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\erol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\erolg\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,28 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Serilog.Sinks.Email": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
