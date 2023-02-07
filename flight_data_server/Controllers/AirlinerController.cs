@@ -15,12 +15,10 @@ namespace flight_data_server.Controllers
     public class AirlinerController : ControllerBase
         {
 
-
         private readonly ILogger<AirlinerController> _logger;
         private readonly AirlinerDBContext _adbContext;
         private readonly IAirlinerDBFunctions _dbAirliner;
         protected APIResponse _response;
-
 
         public AirlinerController(ILogger<AirlinerController> logger, AirlinerDBContext adbContext, IAirlinerDBFunctions dbAirliner)
             {

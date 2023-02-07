@@ -1,6 +1,5 @@
 ﻿using flight_data_server.Database;
 using flight_data_server.Interface;
-using flight_data_server.Models.Airliner;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Linq.Expressions;

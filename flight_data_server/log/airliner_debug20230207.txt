@@ -1,0 +1,38 @@
+2023-02-07 22:14:09.279 +00:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-02-07 22:14:09.924 +00:00 [DBG] Hosting starting
+2023-02-07 22:14:10.106 +00:00 [INF] User profile is available. Using 'C:\Users\egurcan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-07 22:14:10.113 +00:00 [DBG] Reading data from file 'C:\Users\egurcan\AppData\Local\ASP.NET\DataProtection-Keys\key-384b0ab5-ea7f-415e-bd6a-40fa2c77d571.xml'.
+2023-02-07 22:14:10.180 +00:00 [DBG] Found key {384b0ab5-ea7f-415e-bd6a-40fa2c77d571}.
+2023-02-07 22:14:10.216 +00:00 [DBG] Considering key {384b0ab5-ea7f-415e-bd6a-40fa2c77d571} with expiration date 2023-05-01 18:04:38Z as default key.
+2023-02-07 22:14:10.224 +00:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-02-07 22:14:10.234 +00:00 [DBG] Decrypting secret element using Windows DPAPI.
+2023-02-07 22:14:10.239 +00:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-02-07 22:14:10.254 +00:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-02-07 22:14:10.260 +00:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-02-07 22:14:10.268 +00:00 [DBG] Using key {384b0ab5-ea7f-415e-bd6a-40fa2c77d571} as the default key.
+2023-02-07 22:14:10.269 +00:00 [DBG] Key ring with default key {384b0ab5-ea7f-415e-bd6a-40fa2c77d571} was loaded during application startup.
+2023-02-07 22:14:10.879 +00:00 [DBG] Using development certificate: CN=localhost (Thumbprint: E67BB99024F02B8306EC398DCFC9097E29D47F1E)
+2023-02-07 22:14:10.998 +00:00 [INF] Now listening on: https://localhost:7152
+2023-02-07 22:14:10.998 +00:00 [INF] Now listening on: http://localhost:5035
+2023-02-07 22:14:10.998 +00:00 [DBG] Loaded hosting startup assembly flight_data_server
+2023-02-07 22:14:10.998 +00:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-02-07 22:14:10.998 +00:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-02-07 22:14:10.999 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-07 22:14:10.999 +00:00 [INF] Hosting environment: Development
+2023-02-07 22:14:10.999 +00:00 [INF] Content root path: C:\Users\egurcan\Desktop\temp\Flight-Data-Server-Asp.Net\flight_data_server\
+2023-02-07 22:14:10.999 +00:00 [DBG] Hosting started
+2023-02-07 22:14:11.385 +00:00 [DBG] Connection id "0HMO9B2HTJ5R5" accepted.
+2023-02-07 22:14:11.385 +00:00 [DBG] Connection id "0HMO9B2HTJ5R4" accepted.
+2023-02-07 22:14:11.387 +00:00 [DBG] Connection id "0HMO9B2HTJ5R5" started.
+2023-02-07 22:14:11.387 +00:00 [DBG] Connection id "0HMO9B2HTJ5R4" started.
+2023-02-07 22:14:12.721 +00:00 [DBG] Connection id "0HMO9B2HTJ5R6" accepted.
+2023-02-07 22:14:12.722 +00:00 [DBG] Connection id "0HMO9B2HTJ5R6" started.
+2023-02-07 22:14:12.725 +00:00 [DBG] Connection id "0HMO9B2HTJ5R7" accepted.
+2023-02-07 22:14:12.725 +00:00 [DBG] Connection id "0HMO9B2HTJ5R7" started.
+2023-02-07 22:14:12.840 +00:00 [DBG] Connection id "0HMO9B2HTJ5R6" received FIN.
+2023-02-07 22:14:12.860 +00:00 [DBG] Connection 0HMO9B2HTJ5R6 established using the following protocol: "Tls12"
+2023-02-07 22:14:12.860 +00:00 [DBG] Connection 0HMO9B2HTJ5R7 established using the following protocol: "Tls12"
+2023-02-07 22:14:12.895 +00:00 [DBG] Connection id "0HMO9B2HTJ5R6" is closed. The last processed stream ID was 0.
+2023-02-07 22:14:12.896 +00:00 [DBG] Connection id "0HMO9B2HTJ5R6" sending FIN because: "The client closed the connection."
+2023-02-07 22:14:12.952 +00:00 [DBG] Connection id "0HMO9B2HTJ5R6" stopped.
+2023-02-07 22:14:12.957 +00:00 [INF] Request starting HTTP/2 GET https://localhost:7152/swagger - -
