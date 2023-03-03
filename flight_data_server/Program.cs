@@ -25,8 +25,15 @@ builder.Services.AddDbContext<AirlinerDBContext>(o =>
     o.UseSqlServer(builder.Configuration.GetConnectionString("FlightDB"));
 });
 
+
+builder.Services.AddDbContext<FlightDataDBContext>(o =>
+{
+    o.UseSqlServer(builder.Configuration.GetConnectionString("FlightDB"));
+});
+
 builder.Services.AddScoped<IAirlinerDBFunctions, AirlinerDBFunctions>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IFlightDataDBFunctions, FlightDataDBFunctions>();
 
 builder.Services.AddControllers();
 

@@ -1,20 +1,17 @@
 ﻿using flight_data_server.Database;
-using flight_data_server.Interface;
-using flight_data_server.Models;
 using flight_data_server.Models.FlightData;
-using System.Linq.Expressions;
+using flight_data_server.Interface;
 
 namespace flight_data_server.Services.DBFunctions
-{
-
-
-    public class FlightDataDBFunctions : DatabaseFunctions<FlightData>
     {
 
-        private readonly AirlinerDBContext _db;
-        public FlightDataDBFunctions(AirlinerDBContext db) : base(db)
+    public class FlightDataDBFunctions : DatabaseFunctions<FlightData>, IFlightDataDBFunctions
         {
+
+        private readonly FlightDataDBContext _db;
+        public FlightDataDBFunctions(FlightDataDBContext db) : base(db)
+            {
             this._db = db;
+            }
         }
     }
-}

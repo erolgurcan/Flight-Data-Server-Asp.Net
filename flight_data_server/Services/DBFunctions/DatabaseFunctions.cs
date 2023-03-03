@@ -8,11 +8,11 @@ namespace flight_data_server.Services.DBFunctions
     {
     public class DatabaseFunctions<T> : IDatabaseFunctions<T> where T : class
         {
-        private readonly AirlinerDBContext _db;
+        private readonly DbContext _db;
 
         internal DbSet<T> dbSet;
 
-        public DatabaseFunctions(AirlinerDBContext db)
+        public DatabaseFunctions(DbContext db)
             {
             this._db = db;
             this.dbSet = _db.Set<T>();

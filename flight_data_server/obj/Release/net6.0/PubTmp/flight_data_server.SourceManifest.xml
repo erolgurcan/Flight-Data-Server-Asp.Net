@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="D:\.NET\Flight-Data-Server-Asp.Net\flight_data_server\obj\Release\net6.0\PubTmp\Out\" />
+  <dbfullsql path="D:\.NET\Flight-Data-Server-Asp.Net\flight_data_server\obj\Release\net6.0\PubTmp\EFSQLScripts\flight_data_server.Database.AirlinerDBContext.sql" />
+  <dbfullsql path="D:\.NET\Flight-Data-Server-Asp.Net\flight_data_server\obj\Release\net6.0\PubTmp\EFSQLScripts\flight_data_server.Database.FlightDataDBContext.sql" />
+</sitemanifest>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="flight-data-server" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\\.NET\\Flight-Data-Server-Asp\.Net\\flight_data_server\\obj\\Release\\net6\.0\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="flight_data_server.Database.AirlinerDBContext" description="" value="Server=tcp:flight-database.database.windows.net,1433;Initial Catalog=flight-database;Persist Security Info=False;User ID=erol;Password=GhQfnSx6kH6mGMS.;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^D:\\\.NET\\Flight-Data-Server-Asp\.Net\\flight_data_server\\obj\\Release\\net6\.0\\PubTmp\\EFSQLScripts\\flight_data_server\.Database\.AirlinerDBContext\.sql$" />
+  </parameter>
+  <parameter name="flight_data_server.Database.FlightDataDBContext" description="" value="Server=tcp:flight-database.database.windows.net,1433;Initial Catalog=flight-database;Persist Security Info=False;User ID=erol;Password=GhQfnSx6kH6mGMS.;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^D:\\\.NET\\Flight-Data-Server-Asp\.Net\\flight_data_server\\obj\\Release\\net6\.0\\PubTmp\\EFSQLScripts\\flight_data_server\.Database\.FlightDataDBContext\.sql$" />
+  </parameter>
+</parameters>

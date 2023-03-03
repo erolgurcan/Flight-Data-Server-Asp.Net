@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAB62Un6ZZIEWSlsuUoSGQeQAAAAACAAAAAAAQZgAAAAEAACAAAAAQzE6pIALOIKH31DSdVHkMMsCEyOPU4OkYhdgeJI9ougAAAAAOgAAAAAIAACAAAAC+ZwSUdq2W/4QwqWi0vAP/RM/orwM/D41rHy884z9l/oAAAAA8Flf/WwPNdhPelbpgu5WPKhriR/TmUqwpKB0KyeP8i0ixezlSLb4REDrjsCkcoJXngJTVrs/tbNCKTJf6VeCPPBpeaNiLQR7hu9DPgL/OBTrkOwGJlrx/kEMJsoyZgM3Vo63A2N0+RUsjXiBT2d9WGaTsPA83fTcItcQZj77h9kAAAACNiomHXXCIhHi6DIKpwTyf2MpNeDWbsKLw9Qgdaw5Y90x99y9dkYHcuFS+RjNkMW9WIk0ncLwFdf2O1uR8FezM</EncryptedPassword>
+    <History>True|2023-02-09T04:16:33.8704835Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="FlightDB">
+      <Value>Server=tcp:flight-database.database.windows.net,1433%3bInitial Catalog=flight-database%3bPersist Security Info=False%3bUser ID=erol%3bPassword=GhQfnSx6kH6mGMS.%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="flight_data_server.Database.AirlinerDBContext">
+      <Value>Server=tcp:flight-database.database.windows.net,1433%3bInitial Catalog=flight-database%3bPersist Security Info=False%3bUser ID=erol%3bPassword=GhQfnSx6kH6mGMS.%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+    <EFMigrations Include="flight_data_server.Database.FlightDataDBContext">
+      <Value>Server=tcp:flight-database.database.windows.net,1433%3bInitial Catalog=flight-database%3bPersist Security Info=False%3bUser ID=erol%3bPassword=GhQfnSx6kH6mGMS.%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

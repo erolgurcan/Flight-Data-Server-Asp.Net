@@ -1,0 +1,586 @@
+2023-02-12 11:30:05.684 -08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-02-12 11:30:06.016 -08:00 [DBG] Hosting starting
+2023-02-12 11:30:06.283 -08:00 [INF] User profile is available. Using 'C:\Users\erolg\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-12 11:30:06.289 -08:00 [DBG] Reading data from file 'C:\Users\erolg\AppData\Local\ASP.NET\DataProtection-Keys\key-322def36-0d4b-4319-822b-9a978d52a69b.xml'.
+2023-02-12 11:30:06.315 -08:00 [DBG] Found key {322def36-0d4b-4319-822b-9a978d52a69b}.
+2023-02-12 11:30:06.325 -08:00 [DBG] Considering key {322def36-0d4b-4319-822b-9a978d52a69b} with expiration date 2023-04-14 01:02:54Z as default key.
+2023-02-12 11:30:06.326 -08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-02-12 11:30:06.329 -08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2023-02-12 11:30:06.330 -08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-02-12 11:30:06.335 -08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-02-12 11:30:06.337 -08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-02-12 11:30:06.340 -08:00 [DBG] Using key {322def36-0d4b-4319-822b-9a978d52a69b} as the default key.
+2023-02-12 11:30:06.341 -08:00 [DBG] Key ring with default key {322def36-0d4b-4319-822b-9a978d52a69b} was loaded during application startup.
+2023-02-12 11:30:06.913 -08:00 [DBG] Using development certificate: CN=localhost (Thumbprint: E245E95D59854C93E6C7A7248A3D9D7BFC30FCBE)
+2023-02-12 11:30:06.963 -08:00 [INF] Now listening on: https://localhost:7152
+2023-02-12 11:30:06.963 -08:00 [INF] Now listening on: http://localhost:5035
+2023-02-12 11:30:06.963 -08:00 [DBG] Loaded hosting startup assembly flight_data_server
+2023-02-12 11:30:06.963 -08:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-02-12 11:30:06.963 -08:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-02-12 11:30:06.963 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-12 11:30:06.963 -08:00 [INF] Hosting environment: Development
+2023-02-12 11:30:06.963 -08:00 [INF] Content root path: D:\.NET\Flight-Data-Server-Asp.Net\flight_data_server\
+2023-02-12 11:30:06.963 -08:00 [DBG] Hosting started
+2023-02-12 11:30:07.406 -08:00 [DBG] Connection id "0HMOD5U674TL0" accepted.
+2023-02-12 11:30:07.406 -08:00 [DBG] Connection id "0HMOD5U674TL1" accepted.
+2023-02-12 11:30:07.407 -08:00 [DBG] Connection id "0HMOD5U674TL1" started.
+2023-02-12 11:30:07.407 -08:00 [DBG] Connection id "0HMOD5U674TL0" started.
+2023-02-12 11:30:09.183 -08:00 [DBG] Connection id "0HMOD5U674TL2" accepted.
+2023-02-12 11:30:09.183 -08:00 [DBG] Connection id "0HMOD5U674TL2" started.
+2023-02-12 11:30:09.193 -08:00 [DBG] Connection id "0HMOD5U674TL3" accepted.
+2023-02-12 11:30:09.193 -08:00 [DBG] Connection id "0HMOD5U674TL3" started.
+2023-02-12 11:30:09.202 -08:00 [DBG] Connection id "0HMOD5U674TL2" received FIN.
+2023-02-12 11:30:09.306 -08:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-02-12 11:30:09.313 -08:00 [DBG] Connection 0HMOD5U674TL3 established using the following protocol: "Tls12"
+2023-02-12 11:30:09.576 -08:00 [DBG] Connection id "0HMOD5U674TL2" stopped.
+2023-02-12 11:30:09.578 -08:00 [DBG] Connection id "0HMOD5U674TL2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-02-12 11:30:09.653 -08:00 [INF] Request starting HTTP/2 GET https://localhost:7152/swagger/index.html - -
+2023-02-12 11:30:09.724 -08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-02-12 11:30:09.763 -08:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-02-12 11:30:09.764 -08:00 [DBG] Request did not match any endpoints
+2023-02-12 11:30:09.929 -08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-02-12 11:30:10.390 -08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-02-12 11:30:10.395 -08:00 [INF] Request finished HTTP/2 GET https://localhost:7152/swagger/index.html - - - 200 - text/html;charset=utf-8 746.6636ms
+2023-02-12 11:30:10.447 -08:00 [INF] Request starting HTTP/2 GET https://localhost:7152/swagger/swagger-ui-standalone-preset.js - -
+2023-02-12 11:30:10.447 -08:00 [INF] Request starting HTTP/2 GET https://localhost:7152/swagger/swagger-ui-bundle.js - -
+2023-02-12 11:30:10.447 -08:00 [INF] Request starting HTTP/2 GET https://localhost:7152/swagger/swagger-ui.css - -
+2023-02-12 11:30:10.447 -08:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2023-02-12 11:30:10.447 -08:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2023-02-12 11:30:10.447 -08:00 [DBG] Request did not match any endpoints
+2023-02-12 11:30:10.447 -08:00 [DBG] Request did not match any endpoints
+2023-02-12 11:30:10.447 -08:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2023-02-12 11:30:10.447 -08:00 [DBG] Request did not match any endpoints
+2023-02-12 11:30:10.459 -08:00 [INF] The file /swagger-ui-standalone-preset.js was not modified
+2023-02-12 11:30:10.459 -08:00 [INF] The file /swagger-ui-bundle.js was not modified
+2023-02-12 11:30:10.465 -08:00 [DBG] Handled. Status code: 304 File: /swagger-ui-bundle.js
+2023-02-12 11:30:10.465 -08:00 [DBG] Handled. Status code: 304 File: /swagger-ui-standalone-preset.js
+2023-02-12 11:30:10.471 -08:00 [INF] Request finished HTTP/2 GET https://localhost:7152/swagger/swagger-ui-standalone-preset.js - - - 304 - application/javascript 23.6888ms
+2023-02-12 11:30:10.471 -08:00 [INF] Request finished HTTP/2 GET https://localhost:7152/swagger/swagger-ui-bundle.js - - - 304 - application/javascript 23.6898ms
+2023-02-12 11:30:10.471 -08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-02-12 11:30:10.471 -08:00 [INF] Request finished HTTP/2 GET https://localhost:7152/swagger/swagger-ui.css - - - 200 143632 text/css 23.8342ms
+2023-02-12 11:30:10.495 -08:00 [INF] Request starting HTTP/2 GET https://localhost:7152/_vs/browserLink - -
+2023-02-12 11:30:10.495 -08:00 [INF] Request starting HTTP/2 GET https://localhost:7152/_framework/aspnetcore-browser-refresh.js - -
+2023-02-12 11:30:10.501 -08:00 [INF] Request finished HTTP/2 GET https://localhost:7152/_framework/aspnetcore-browser-refresh.js - - - 200 12006 application/javascript;+charset=utf-8 5.9556ms
+2023-02-12 11:30:10.569 -08:00 [INF] Request finished HTTP/2 GET https://localhost:7152/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 73.6523ms
+2023-02-12 11:30:10.617 -08:00 [INF] Request starting HTTP/2 GET https://localhost:7152/swagger/favicon-16x16.png - -
+2023-02-12 11:30:10.617 -08:00 [DBG] No candidates found for the request path '/swagger/favicon-16x16.png'
+2023-02-12 11:30:10.617 -08:00 [DBG] Request did not match any endpoints
+2023-02-12 11:30:10.621 -08:00 [DBG] The file transmission was cancelled
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, IFileInfo file, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileContext.SendAsync()
+2023-02-12 11:30:10.624 -08:00 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2023-02-12 11:30:10.624 -08:00 [INF] Request finished HTTP/2 GET https://localhost:7152/swagger/favicon-16x16.png - - - 0 665 image/png 7.4366ms
+2023-02-12 11:30:10.732 -08:00 [INF] Request starting HTTP/2 GET https://localhost:7152/swagger/v1/swagger.json - -
+2023-02-12 11:30:10.732 -08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-02-12 11:30:10.732 -08:00 [DBG] Request did not match any endpoints
+2023-02-12 11:30:10.910 -08:00 [INF] Request finished HTTP/2 GET https://localhost:7152/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 178.5806ms
+2023-02-12 11:30:17.447 -08:00 [DBG] Authentication of the HTTPS connection timed out.
+2023-02-12 11:30:17.447 -08:00 [DBG] Authentication of the HTTPS connection timed out.
+2023-02-12 11:30:17.447 -08:00 [DBG] Connection id "0HMOD5U674TL0" stopped.
+2023-02-12 11:30:17.447 -08:00 [DBG] Connection id "0HMOD5U674TL1" stopped.
+2023-02-12 11:30:17.447 -08:00 [DBG] Connection id "0HMOD5U674TL1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-02-12 11:30:17.447 -08:00 [DBG] Connection id "0HMOD5U674TL0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-02-12 11:30:20.819 -08:00 [INF] Request starting HTTP/2 GET https://localhost:7152/api/Airliner - -
+2023-02-12 11:30:20.822 -08:00 [DBG] 1 candidate(s) found for the request path '/api/Airliner'
+2023-02-12 11:30:20.827 -08:00 [DBG] Endpoint 'flight_data_server.Controllers.AirlinerController.GetAirliners (flight_data_server)' with route pattern 'api/Airliner' is valid for the request path '/api/Airliner'
+2023-02-12 11:30:20.827 -08:00 [DBG] Request matched endpoint 'flight_data_server.Controllers.AirlinerController.GetAirliners (flight_data_server)'
+2023-02-12 11:30:20.827 -08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-02-12 11:30:21.309 -08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-02-12 11:30:21.310 -08:00 [INF] Executing endpoint 'flight_data_server.Controllers.AirlinerController.GetAirliners (flight_data_server)'
+2023-02-12 11:30:21.340 -08:00 [INF] Route matched with {action = "GetAirliners", controller = "Airliner"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[flight_data_server.Models.APIResponse]] GetAirliners() on controller flight_data_server.Controllers.AirlinerController (flight_data_server).
+2023-02-12 11:30:21.341 -08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-02-12 11:30:21.341 -08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-02-12 11:30:21.341 -08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-02-12 11:30:21.341 -08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-02-12 11:30:21.341 -08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-02-12 11:30:21.342 -08:00 [DBG] Executing controller factory for controller flight_data_server.Controllers.AirlinerController (flight_data_server)
+2023-02-12 11:30:21.777 -08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-02-12 11:30:22.552 -08:00 [INF] Entity Framework Core 6.0.13 initialized 'AirlinerDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.13' with options: None
+2023-02-12 11:30:22.553 -08:00 [DBG] Executed controller factory for controller flight_data_server.Controllers.AirlinerController (flight_data_server)
+2023-02-12 11:30:22.556 -08:00 [INF] Getting All Values
+2023-02-12 11:30:22.809 -08:00 [DBG] Compiling query expression: 
+'DbSet<Airliner>()'
+2023-02-12 11:30:23.023 -08:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Airliner>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Airliner.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Airliner.AirlinerCallSign (string) Required, 1], [Property: Airliner.AirlinerName (string) Required, 2] }
+        SELECT a.Id, a.AirlinerCallSign, a.AirlinerName
+        FROM Airliner AS a), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Airliner>, 
+    flight_data_server.Database.AirlinerDBContext, 
+    False, 
+    False, 
+    True
+)'
+2023-02-12 11:30:23.092 -08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-02-12 11:30:23.159 -08:00 [DBG] Created DbCommand for 'ExecuteReader' (63ms).
+2023-02-12 11:30:23.173 -08:00 [DBG] Opening connection to database 'flight-database' on server 'tcp:flight-database.database.windows.net,1433'.
+2023-02-12 11:30:24.406 -08:00 [DBG] Opened connection to database 'flight-database' on server 'tcp:flight-database.database.windows.net,1433'.
+2023-02-12 11:30:24.421 -08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AirlinerCallSign], [a].[AirlinerName]
+FROM [Airliner] AS [a]
+2023-02-12 11:30:24.557 -08:00 [INF] Executed DbCommand (139ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AirlinerCallSign], [a].[AirlinerName]
+FROM [Airliner] AS [a]
+2023-02-12 11:30:24.597 -08:00 [DBG] Context 'AirlinerDBContext' started tracking 'Airliner' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-12 11:30:24.625 -08:00 [DBG] Context 'AirlinerDBContext' started tracking 'Airliner' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-12 11:30:24.625 -08:00 [DBG] Context 'AirlinerDBContext' started tracking 'Airliner' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-12 11:30:24.625 -08:00 [DBG] Context 'AirlinerDBContext' started tracking 'Airliner' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-12 11:30:24.625 -08:00 [DBG] Context 'AirlinerDBContext' started tracking 'Airliner' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-12 11:30:24.625 -08:00 [DBG] Context 'AirlinerDBContext' started tracking 'Airliner' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-12 11:30:24.635 -08:00 [DBG] A data reader was disposed.
+2023-02-12 11:30:24.643 -08:00 [DBG] Closing connection to database 'flight-database' on server 'tcp:flight-database.database.windows.net,1433'.
+2023-02-12 11:30:24.653 -08:00 [DBG] Closed connection to database 'flight-database' on server 'tcp:flight-database.database.windows.net,1433'.
+2023-02-12 11:30:24.660 -08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-02-12 11:30:24.663 -08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-02-12 11:30:24.663 -08:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-02-12 11:30:24.663 -08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-02-12 11:30:24.663 -08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-02-12 11:30:24.664 -08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-02-12 11:30:24.664 -08:00 [INF] Executing OkObjectResult, writing value of type 'flight_data_server.Models.APIResponse'.
+2023-02-12 11:30:24.679 -08:00 [INF] Executed action flight_data_server.Controllers.AirlinerController.GetAirliners (flight_data_server) in 3331.5128ms
+2023-02-12 11:30:24.681 -08:00 [INF] Executed endpoint 'flight_data_server.Controllers.AirlinerController.GetAirliners (flight_data_server)'
+2023-02-12 11:30:24.687 -08:00 [DBG] 'AirlinerDBContext' disposed.
+2023-02-12 11:30:24.690 -08:00 [INF] Request finished HTTP/2 GET https://localhost:7152/api/Airliner - - - 200 - application/json;+charset=utf-8 3871.3273ms
+2023-02-12 11:33:15.140 -08:00 [DBG] Connection id "0HMOD5U674TL3" received FIN.
+2023-02-12 11:33:15.147 -08:00 [DBG] Connection id "0HMOD5U674TL3" is closed. The last processed stream ID was 31.
+2023-02-12 11:33:15.171 -08:00 [DBG] Connection id "0HMOD5U674TL3" sending FIN because: "The client closed the connection."
+2023-02-12 11:33:15.173 -08:00 [DBG] Connection id "0HMOD5U674TL3" stopped.
+2023-02-12 12:09:45.705 -08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-02-12 12:09:45.849 -08:00 [DBG] Hosting starting
+2023-02-12 12:09:45.908 -08:00 [INF] User profile is available. Using 'C:\Users\erolg\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-12 12:09:45.911 -08:00 [DBG] Reading data from file 'C:\Users\erolg\AppData\Local\ASP.NET\DataProtection-Keys\key-322def36-0d4b-4319-822b-9a978d52a69b.xml'.
+2023-02-12 12:09:45.922 -08:00 [DBG] Found key {322def36-0d4b-4319-822b-9a978d52a69b}.
+2023-02-12 12:09:45.934 -08:00 [DBG] Considering key {322def36-0d4b-4319-822b-9a978d52a69b} with expiration date 2023-04-14 01:02:54Z as default key.
+2023-02-12 12:09:45.936 -08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-02-12 12:09:45.938 -08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2023-02-12 12:09:45.940 -08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-02-12 12:09:45.944 -08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-02-12 12:09:45.947 -08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-02-12 12:09:45.950 -08:00 [DBG] Using key {322def36-0d4b-4319-822b-9a978d52a69b} as the default key.
+2023-02-12 12:09:45.951 -08:00 [DBG] Key ring with default key {322def36-0d4b-4319-822b-9a978d52a69b} was loaded during application startup.
+2023-02-12 12:09:46.108 -08:00 [DBG] Using development certificate: CN=localhost (Thumbprint: E245E95D59854C93E6C7A7248A3D9D7BFC30FCBE)
+2023-02-12 12:09:46.144 -08:00 [INF] Now listening on: https://localhost:7152
+2023-02-12 12:09:46.144 -08:00 [INF] Now listening on: http://localhost:5035
+2023-02-12 12:09:46.144 -08:00 [DBG] Loaded hosting startup assembly flight_data_server
+2023-02-12 12:09:46.144 -08:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-02-12 12:09:46.144 -08:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-02-12 12:09:46.144 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-12 12:09:46.144 -08:00 [INF] Hosting environment: Development
+2023-02-12 12:09:46.144 -08:00 [INF] Content root path: D:\.NET\Flight-Data-Server-Asp.Net\flight_data_server\
+2023-02-12 12:09:46.144 -08:00 [DBG] Hosting started
+2023-02-12 12:09:46.501 -08:00 [DBG] Connection id "0HMOD6KB80AFL" accepted.
+2023-02-12 12:09:46.501 -08:00 [DBG] Connection id "0HMOD6KB80AFK" accepted.
+2023-02-12 12:09:46.502 -08:00 [DBG] Connection id "0HMOD6KB80AFK" started.
+2023-02-12 12:09:46.502 -08:00 [DBG] Connection id "0HMOD6KB80AFL" started.
+2023-02-12 12:09:46.525 -08:00 [DBG] Connection id "0HMOD6KB80AFL" received FIN.
+2023-02-12 12:09:46.525 -08:00 [DBG] Connection id "0HMOD6KB80AFK" received FIN.
+2023-02-12 12:09:46.561 -08:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-02-12 12:09:46.561 -08:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-02-12 12:09:46.616 -08:00 [DBG] Connection id "0HMOD6KB80AFK" stopped.
+2023-02-12 12:09:46.616 -08:00 [DBG] Connection id "0HMOD6KB80AFL" stopped.
+2023-02-12 12:09:46.618 -08:00 [DBG] Connection id "0HMOD6KB80AFK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-02-12 12:09:46.618 -08:00 [DBG] Connection id "0HMOD6KB80AFL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-02-12 12:09:47.139 -08:00 [DBG] Connection id "0HMOD6KB80AFM" accepted.
+2023-02-12 12:09:47.140 -08:00 [DBG] Connection id "0HMOD6KB80AFM" started.
+2023-02-12 12:09:47.198 -08:00 [DBG] Connection 0HMOD6KB80AFM established using the following protocol: "Tls12"
+2023-02-12 12:09:47.279 -08:00 [INF] Request starting HTTP/2 GET https://localhost:7152/swagger/index.html - -
+2023-02-12 12:09:47.334 -08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-02-12 12:09:47.370 -08:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-02-12 12:09:47.370 -08:00 [DBG] Request did not match any endpoints
+2023-02-12 12:09:47.488 -08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-02-12 12:09:47.645 -08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-02-12 12:09:47.649 -08:00 [INF] Request finished HTTP/2 GET https://localhost:7152/swagger/index.html - - - 200 - text/html;charset=utf-8 373.9781ms
+2023-02-12 12:09:47.735 -08:00 [INF] Request starting HTTP/2 GET https://localhost:7152/_vs/browserLink - -
+2023-02-12 12:09:47.735 -08:00 [INF] Request starting HTTP/2 GET https://localhost:7152/_framework/aspnetcore-browser-refresh.js - -
+2023-02-12 12:09:47.750 -08:00 [INF] Request finished HTTP/2 GET https://localhost:7152/_framework/aspnetcore-browser-refresh.js - - - 200 12006 application/javascript;+charset=utf-8 15.3995ms
+2023-02-12 12:09:47.768 -08:00 [INF] Request finished HTTP/2 GET https://localhost:7152/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 33.5846ms
+2023-02-12 12:09:47.895 -08:00 [INF] Request starting HTTP/2 GET https://localhost:7152/swagger/favicon-16x16.png - -
+2023-02-12 12:09:47.895 -08:00 [DBG] No candidates found for the request path '/swagger/favicon-16x16.png'
+2023-02-12 12:09:47.895 -08:00 [DBG] Request did not match any endpoints
+2023-02-12 12:09:47.905 -08:00 [DBG] The file transmission was cancelled
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, IFileInfo file, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileContext.SendAsync()
+2023-02-12 12:09:47.908 -08:00 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2023-02-12 12:09:47.908 -08:00 [INF] Request finished HTTP/2 GET https://localhost:7152/swagger/favicon-16x16.png - - - 0 665 image/png 12.9651ms
+2023-02-12 12:09:48.018 -08:00 [INF] Request starting HTTP/2 GET https://localhost:7152/swagger/v1/swagger.json - -
+2023-02-12 12:09:48.019 -08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-02-12 12:09:48.019 -08:00 [DBG] Request did not match any endpoints
+2023-02-12 12:09:48.226 -08:00 [INF] Request finished HTTP/2 GET https://localhost:7152/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 208.5471ms
+2023-02-12 12:09:54.361 -08:00 [INF] Request starting HTTP/2 GET https://localhost:7152/api/Airliner - -
+2023-02-12 12:09:54.368 -08:00 [DBG] 1 candidate(s) found for the request path '/api/Airliner'
+2023-02-12 12:09:54.372 -08:00 [DBG] Endpoint 'flight_data_server.Controllers.AirlinerController.GetAirliners (flight_data_server)' with route pattern 'api/Airliner' is valid for the request path '/api/Airliner'
+2023-02-12 12:09:54.372 -08:00 [DBG] Request matched endpoint 'flight_data_server.Controllers.AirlinerController.GetAirliners (flight_data_server)'
+2023-02-12 12:09:54.373 -08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-02-12 12:09:54.467 -08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-02-12 12:09:54.467 -08:00 [INF] Executing endpoint 'flight_data_server.Controllers.AirlinerController.GetAirliners (flight_data_server)'
+2023-02-12 12:09:54.485 -08:00 [INF] Route matched with {action = "GetAirliners", controller = "Airliner"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[flight_data_server.Models.APIResponse]] GetAirliners() on controller flight_data_server.Controllers.AirlinerController (flight_data_server).
+2023-02-12 12:09:54.485 -08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-02-12 12:09:54.486 -08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-02-12 12:09:54.486 -08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-02-12 12:09:54.486 -08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-02-12 12:09:54.486 -08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-02-12 12:09:54.486 -08:00 [DBG] Executing controller factory for controller flight_data_server.Controllers.AirlinerController (flight_data_server)
+2023-02-12 12:09:54.655 -08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-02-12 12:09:55.383 -08:00 [INF] Entity Framework Core 6.0.13 initialized 'AirlinerDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.13' with options: None
+2023-02-12 12:09:55.383 -08:00 [DBG] Executed controller factory for controller flight_data_server.Controllers.AirlinerController (flight_data_server)
+2023-02-12 12:09:55.385 -08:00 [INF] Getting All Values
+2023-02-12 12:09:55.465 -08:00 [DBG] Compiling query expression: 
+'DbSet<Airliner>()'
+2023-02-12 12:09:55.681 -08:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Airliner>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Airliner.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Airliner.AirlinerCallSign (string) Required, 1], [Property: Airliner.AirlinerName (string) Required, 2] }
+        SELECT a.Id, a.AirlinerCallSign, a.AirlinerName
+        FROM Airliner AS a), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Airliner>, 
+    flight_data_server.Database.AirlinerDBContext, 
+    False, 
+    False, 
+    True
+)'
+2023-02-12 12:09:55.740 -08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-02-12 12:09:55.789 -08:00 [DBG] Created DbCommand for 'ExecuteReader' (45ms).
+2023-02-12 12:09:55.802 -08:00 [DBG] Opening connection to database 'flight-database' on server 'tcp:flight-database.database.windows.net,1433'.
+2023-02-12 12:09:56.599 -08:00 [DBG] Opened connection to database 'flight-database' on server 'tcp:flight-database.database.windows.net,1433'.
+2023-02-12 12:09:56.611 -08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AirlinerCallSign], [a].[AirlinerName]
+FROM [Airliner] AS [a]
+2023-02-12 12:09:56.744 -08:00 [INF] Executed DbCommand (134ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AirlinerCallSign], [a].[AirlinerName]
+FROM [Airliner] AS [a]
+2023-02-12 12:09:56.784 -08:00 [DBG] Context 'AirlinerDBContext' started tracking 'Airliner' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-12 12:09:56.809 -08:00 [DBG] Context 'AirlinerDBContext' started tracking 'Airliner' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-12 12:09:56.809 -08:00 [DBG] Context 'AirlinerDBContext' started tracking 'Airliner' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-12 12:09:56.810 -08:00 [DBG] Context 'AirlinerDBContext' started tracking 'Airliner' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-12 12:09:56.810 -08:00 [DBG] Context 'AirlinerDBContext' started tracking 'Airliner' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-12 12:09:56.810 -08:00 [DBG] Context 'AirlinerDBContext' started tracking 'Airliner' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-12 12:09:56.820 -08:00 [DBG] A data reader was disposed.
+2023-02-12 12:09:56.827 -08:00 [DBG] Closing connection to database 'flight-database' on server 'tcp:flight-database.database.windows.net,1433'.
+2023-02-12 12:09:56.837 -08:00 [DBG] Closed connection to database 'flight-database' on server 'tcp:flight-database.database.windows.net,1433'.
+2023-02-12 12:09:56.842 -08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-02-12 12:09:56.845 -08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-02-12 12:09:56.846 -08:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-02-12 12:09:56.846 -08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-02-12 12:09:56.846 -08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-02-12 12:09:56.846 -08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-02-12 12:09:56.846 -08:00 [INF] Executing OkObjectResult, writing value of type 'flight_data_server.Models.APIResponse'.
+2023-02-12 12:09:56.858 -08:00 [INF] Executed action flight_data_server.Controllers.AirlinerController.GetAirliners (flight_data_server) in 2366.5084ms
+2023-02-12 12:09:56.860 -08:00 [INF] Executed endpoint 'flight_data_server.Controllers.AirlinerController.GetAirliners (flight_data_server)'
+2023-02-12 12:09:56.867 -08:00 [DBG] 'AirlinerDBContext' disposed.
+2023-02-12 12:09:56.871 -08:00 [INF] Request finished HTTP/2 GET https://localhost:7152/api/Airliner - - - 200 - application/json;+charset=utf-8 2510.0850ms
+2023-02-12 12:10:21.428 -08:00 [DBG] Connection id "0HMOD6KB80AFN" accepted.
+2023-02-12 12:10:21.428 -08:00 [DBG] Connection id "0HMOD6KB80AFN" started.
+2023-02-12 12:10:21.431 -08:00 [DBG] Connection id "0HMOD6KB80AFN" received FIN.
+2023-02-12 12:10:21.437 -08:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-02-12 12:10:21.438 -08:00 [DBG] Connection id "0HMOD6KB80AFN" stopped.
+2023-02-12 12:10:21.438 -08:00 [DBG] Connection id "0HMOD6KB80AFN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-02-12 12:10:31.434 -08:00 [DBG] Connection id "0HMOD6KB80AFO" accepted.
+2023-02-12 12:10:31.434 -08:00 [DBG] Connection id "0HMOD6KB80AFO" started.
+2023-02-12 12:10:31.435 -08:00 [DBG] Connection id "0HMOD6KB80AFO" received FIN.
+2023-02-12 12:10:31.436 -08:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-02-12 12:10:31.436 -08:00 [DBG] Connection id "0HMOD6KB80AFO" stopped.
+2023-02-12 12:10:31.436 -08:00 [DBG] Connection id "0HMOD6KB80AFO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-02-12 12:10:41.451 -08:00 [DBG] Connection id "0HMOD6KB80AFP" accepted.
+2023-02-12 12:10:41.451 -08:00 [DBG] Connection id "0HMOD6KB80AFP" started.
+2023-02-12 12:10:41.454 -08:00 [DBG] Connection id "0HMOD6KB80AFP" received FIN.
+2023-02-12 12:10:41.455 -08:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-02-12 12:10:41.456 -08:00 [DBG] Connection id "0HMOD6KB80AFP" stopped.
+2023-02-12 12:10:41.456 -08:00 [DBG] Connection id "0HMOD6KB80AFP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-02-12 12:10:51.456 -08:00 [DBG] Connection id "0HMOD6KB80AFQ" accepted.
+2023-02-12 12:10:51.456 -08:00 [DBG] Connection id "0HMOD6KB80AFQ" started.
+2023-02-12 12:10:51.457 -08:00 [DBG] Connection id "0HMOD6KB80AFQ" received FIN.
+2023-02-12 12:10:51.458 -08:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-02-12 12:10:51.458 -08:00 [DBG] Connection id "0HMOD6KB80AFQ" stopped.
+2023-02-12 12:10:51.458 -08:00 [DBG] Connection id "0HMOD6KB80AFQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-02-12 12:11:01.473 -08:00 [DBG] Connection id "0HMOD6KB80AFR" accepted.
+2023-02-12 12:11:01.473 -08:00 [DBG] Connection id "0HMOD6KB80AFR" started.
+2023-02-12 12:11:01.474 -08:00 [DBG] Connection id "0HMOD6KB80AFR" received FIN.
+2023-02-12 12:11:01.475 -08:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-02-12 12:11:01.475 -08:00 [DBG] Connection id "0HMOD6KB80AFR" stopped.
+2023-02-12 12:11:01.475 -08:00 [DBG] Connection id "0HMOD6KB80AFR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-02-12 12:11:09.331 -08:00 [DBG] Connection id "0HMOD6KB80AFS" accepted.
+2023-02-12 12:11:09.331 -08:00 [DBG] Connection id "0HMOD6KB80AFS" started.
+2023-02-12 12:11:09.332 -08:00 [DBG] Connection id "0HMOD6KB80AFS" received FIN.
+2023-02-12 12:11:09.333 -08:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-02-12 12:11:09.333 -08:00 [DBG] Connection id "0HMOD6KB80AFS" stopped.
+2023-02-12 12:11:09.333 -08:00 [DBG] Connection id "0HMOD6KB80AFS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-02-12 12:11:19.337 -08:00 [DBG] Connection id "0HMOD6KB80AFT" accepted.
+2023-02-12 12:11:19.337 -08:00 [DBG] Connection id "0HMOD6KB80AFT" started.
+2023-02-12 12:11:19.338 -08:00 [DBG] Connection id "0HMOD6KB80AFT" received FIN.
+2023-02-12 12:11:19.339 -08:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-02-12 12:11:19.339 -08:00 [DBG] Connection id "0HMOD6KB80AFT" stopped.
+2023-02-12 12:11:19.339 -08:00 [DBG] Connection id "0HMOD6KB80AFT" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-02-12 12:11:27.730 -08:00 [INF] Request starting HTTP/2 POST https://localhost:7152/api/FlightData application/json 187
+2023-02-12 12:11:27.731 -08:00 [DBG] 1 candidate(s) found for the request path '/api/FlightData'
+2023-02-12 12:11:27.731 -08:00 [DBG] Endpoint 'flight_data_server.Controllers.FlightDataController.PostFlightData (flight_data_server)' with route pattern 'api/FlightData' is valid for the request path '/api/FlightData'
+2023-02-12 12:11:27.732 -08:00 [DBG] Request matched endpoint 'flight_data_server.Controllers.FlightDataController.PostFlightData (flight_data_server)'
+2023-02-12 12:11:27.732 -08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-02-12 12:11:27.732 -08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-02-12 12:11:27.732 -08:00 [INF] Executing endpoint 'flight_data_server.Controllers.FlightDataController.PostFlightData (flight_data_server)'
+2023-02-12 12:11:27.746 -08:00 [INF] Route matched with {action = "PostFlightData", controller = "FlightData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[flight_data_server.Models.FlightData.FlightData]] PostFlightData(flight_data_server.Models.FlightData.FlightData) on controller flight_data_server.Controllers.FlightDataController (flight_data_server).
+2023-02-12 12:11:27.746 -08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-02-12 12:11:27.746 -08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-02-12 12:11:27.746 -08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-02-12 12:11:27.746 -08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-02-12 12:11:27.746 -08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-02-12 12:11:27.747 -08:00 [DBG] Executing controller factory for controller flight_data_server.Controllers.FlightDataController (flight_data_server)
+2023-02-12 12:11:27.803 -08:00 [INF] Entity Framework Core 6.0.13 initialized 'FlightDataDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.13' with options: None
+2023-02-12 12:11:27.803 -08:00 [DBG] Executed controller factory for controller flight_data_server.Controllers.FlightDataController (flight_data_server)
+2023-02-12 12:11:27.869 -08:00 [DBG] Attempting to bind parameter 'flighData' of type 'flight_data_server.Models.FlightData.FlightData' ...
+2023-02-12 12:11:27.872 -08:00 [DBG] Attempting to bind parameter 'flighData' of type 'flight_data_server.Models.FlightData.FlightData' using the name '' in request data ...
+2023-02-12 12:11:27.873 -08:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-02-12 12:11:27.884 -08:00 [DBG] Connection id "0HMOD6KB80AFM", Request id "0HMOD6KB80AFM:0000001B": started reading request body.
+2023-02-12 12:11:27.884 -08:00 [DBG] Connection id "0HMOD6KB80AFM", Request id "0HMOD6KB80AFM:0000001B": done reading request body.
+2023-02-12 12:11:27.894 -08:00 [DBG] JSON input formatter succeeded, deserializing to type 'flight_data_server.Models.FlightData.FlightData'
+2023-02-12 12:11:27.894 -08:00 [DBG] Done attempting to bind parameter 'flighData' of type 'flight_data_server.Models.FlightData.FlightData'.
+2023-02-12 12:11:27.895 -08:00 [DBG] Done attempting to bind parameter 'flighData' of type 'flight_data_server.Models.FlightData.FlightData'.
+2023-02-12 12:11:27.895 -08:00 [DBG] Attempting to validate the bound parameter 'flighData' of type 'flight_data_server.Models.FlightData.FlightData' ...
+2023-02-12 12:11:27.909 -08:00 [DBG] Done attempting to validate the bound parameter 'flighData' of type 'flight_data_server.Models.FlightData.FlightData'.
+2023-02-12 12:11:32.354 -08:00 [DBG] Connection id "0HMOD6KB80AFU" received FIN.
+2023-02-12 12:11:32.355 -08:00 [DBG] Connection id "0HMOD6KB80AFU" accepted.
+2023-02-12 12:11:32.355 -08:00 [DBG] Connection id "0HMOD6KB80AFU" started.
+2023-02-12 12:11:32.356 -08:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-02-12 12:11:32.356 -08:00 [DBG] Connection id "0HMOD6KB80AFU" stopped.
+2023-02-12 12:11:32.356 -08:00 [DBG] Connection id "0HMOD6KB80AFU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-02-12 12:11:32.402 -08:00 [DBG] 'FlightDataDBContext' generated a temporary value for the property 'Id.FlightData'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-12 12:11:32.433 -08:00 [DBG] Context 'FlightDataDBContext' started tracking 'FlightData' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-12 12:11:32.443 -08:00 [DBG] SaveChanges starting for 'FlightDataDBContext'.
+2023-02-12 12:11:32.445 -08:00 [DBG] DetectChanges starting for 'FlightDataDBContext'.
+2023-02-12 12:11:32.461 -08:00 [DBG] DetectChanges completed for 'FlightDataDBContext'.
+2023-02-12 12:11:32.488 -08:00 [DBG] Opening connection to database 'flight-database' on server 'tcp:flight-database.database.windows.net,1433'.
+2023-02-12 12:11:32.489 -08:00 [DBG] Opened connection to database 'flight-database' on server 'tcp:flight-database.database.windows.net,1433'.
+2023-02-12 12:11:32.492 -08:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-02-12 12:11:32.581 -08:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-02-12 12:11:32.643 -08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-02-12 12:11:32.643 -08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-02-12 12:11:32.659 -08:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Double), @p2='?' (DbType = Double), @p3='?' (DbType = Double), @p4='?' (DbType = DateTime2), @p5='?' (DbType = Double), @p6='?' (DbType = Double), @p7='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [FlightData] ([AirlinerID], [Altitude], [GroundSpeed], [Latitude], [LoggingTime], [Longitude], [Throttle], [TrueAirSpeed])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+SELECT [Id]
+FROM [FlightData]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2023-02-12 12:11:32.792 -08:00 [INF] Executed DbCommand (143ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Double), @p2='?' (DbType = Double), @p3='?' (DbType = Double), @p4='?' (DbType = DateTime2), @p5='?' (DbType = Double), @p6='?' (DbType = Double), @p7='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [FlightData] ([AirlinerID], [Altitude], [GroundSpeed], [Latitude], [LoggingTime], [Longitude], [Throttle], [TrueAirSpeed])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+SELECT [Id]
+FROM [FlightData]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2023-02-12 12:11:32.817 -08:00 [DBG] The foreign key property 'FlightData.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2023-02-12 12:11:32.825 -08:00 [DBG] A data reader was disposed.
+2023-02-12 12:11:32.833 -08:00 [DBG] Committing transaction.
+2023-02-12 12:11:32.918 -08:00 [DBG] Committed transaction.
+2023-02-12 12:11:32.923 -08:00 [DBG] Closing connection to database 'flight-database' on server 'tcp:flight-database.database.windows.net,1433'.
+2023-02-12 12:11:32.923 -08:00 [DBG] Closed connection to database 'flight-database' on server 'tcp:flight-database.database.windows.net,1433'.
+2023-02-12 12:11:32.927 -08:00 [DBG] Disposing transaction.
+2023-02-12 12:11:32.942 -08:00 [DBG] An entity of type 'FlightData' tracked by 'FlightDataDBContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-12 12:11:32.945 -08:00 [DBG] SaveChanges completed for 'FlightDataDBContext' with 1 entities written to the database.
+2023-02-12 12:11:32.946 -08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-02-12 12:11:32.946 -08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-02-12 12:11:32.946 -08:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-02-12 12:11:32.946 -08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-02-12 12:11:32.946 -08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-02-12 12:11:32.946 -08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-02-12 12:11:32.946 -08:00 [INF] Executing OkObjectResult, writing value of type 'flight_data_server.Models.APIResponse'.
+2023-02-12 12:11:32.946 -08:00 [INF] Executed action flight_data_server.Controllers.FlightDataController.PostFlightData (flight_data_server) in 5199.6977ms
+2023-02-12 12:11:32.946 -08:00 [INF] Executed endpoint 'flight_data_server.Controllers.FlightDataController.PostFlightData (flight_data_server)'
+2023-02-12 12:11:32.946 -08:00 [DBG] 'FlightDataDBContext' disposed.
+2023-02-12 12:11:32.946 -08:00 [INF] Request finished HTTP/2 POST https://localhost:7152/api/FlightData application/json 187 - 200 - application/json;+charset=utf-8 5216.3836ms
+2023-02-12 12:11:39.371 -08:00 [DBG] Connection id "0HMOD6KB80AFV" accepted.
+2023-02-12 12:11:39.372 -08:00 [DBG] Connection id "0HMOD6KB80AFV" started.
+2023-02-12 12:11:39.375 -08:00 [DBG] Connection id "0HMOD6KB80AFV" received FIN.
+2023-02-12 12:11:39.376 -08:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-02-12 12:11:39.376 -08:00 [DBG] Connection id "0HMOD6KB80AFV" stopped.
+2023-02-12 12:11:39.376 -08:00 [DBG] Connection id "0HMOD6KB80AFV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-02-12 12:11:49.379 -08:00 [DBG] Connection id "0HMOD6KB80AG0" accepted.
+2023-02-12 12:11:49.379 -08:00 [DBG] Connection id "0HMOD6KB80AG0" started.
+2023-02-12 12:11:49.379 -08:00 [DBG] Connection id "0HMOD6KB80AG0" received FIN.
+2023-02-12 12:11:49.380 -08:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-02-12 12:11:49.380 -08:00 [DBG] Connection id "0HMOD6KB80AG0" stopped.
+2023-02-12 12:11:49.381 -08:00 [DBG] Connection id "0HMOD6KB80AG0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-02-12 12:11:59.394 -08:00 [DBG] Connection id "0HMOD6KB80AG1" accepted.
+2023-02-12 12:11:59.394 -08:00 [DBG] Connection id "0HMOD6KB80AG1" started.
+2023-02-12 12:11:59.394 -08:00 [DBG] Connection id "0HMOD6KB80AG1" received FIN.
+2023-02-12 12:11:59.395 -08:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-02-12 12:11:59.395 -08:00 [DBG] Connection id "0HMOD6KB80AG1" stopped.
+2023-02-12 12:11:59.396 -08:00 [DBG] Connection id "0HMOD6KB80AG1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-02-12 12:12:09.427 -08:00 [DBG] Connection id "0HMOD6KB80AG2" accepted.
+2023-02-12 12:12:09.427 -08:00 [DBG] Connection id "0HMOD6KB80AG2" started.
+2023-02-12 12:12:09.427 -08:00 [DBG] Connection id "0HMOD6KB80AG2" received FIN.
+2023-02-12 12:12:09.428 -08:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-02-12 12:12:09.429 -08:00 [DBG] Connection id "0HMOD6KB80AG2" stopped.
+2023-02-12 12:12:09.429 -08:00 [DBG] Connection id "0HMOD6KB80AG2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-02-12 12:12:12.845 -08:00 [DBG] Connection id "0HMOD6KB80AG3" accepted.
+2023-02-12 12:12:12.845 -08:00 [DBG] Connection id "0HMOD6KB80AG3" started.
+2023-02-12 12:12:12.869 -08:00 [DBG] Connection 0HMOD6KB80AG3 established using the following protocol: "Tls12"
+2023-02-12 12:12:12.880 -08:00 [INF] Request starting HTTP/1.1 POST https://localhost:7152/api/FlightData application/json 183
+2023-02-12 12:12:12.880 -08:00 [DBG] 1 candidate(s) found for the request path '/api/FlightData'
+2023-02-12 12:12:12.880 -08:00 [DBG] Endpoint 'flight_data_server.Controllers.FlightDataController.PostFlightData (flight_data_server)' with route pattern 'api/FlightData' is valid for the request path '/api/FlightData'
+2023-02-12 12:12:12.880 -08:00 [DBG] Request matched endpoint 'flight_data_server.Controllers.FlightDataController.PostFlightData (flight_data_server)'
+2023-02-12 12:12:12.880 -08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-02-12 12:12:12.882 -08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-02-12 12:12:12.882 -08:00 [INF] Executing endpoint 'flight_data_server.Controllers.FlightDataController.PostFlightData (flight_data_server)'
+2023-02-12 12:12:12.882 -08:00 [INF] Route matched with {action = "PostFlightData", controller = "FlightData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[flight_data_server.Models.FlightData.FlightData]] PostFlightData(flight_data_server.Models.FlightData.FlightData) on controller flight_data_server.Controllers.FlightDataController (flight_data_server).
+2023-02-12 12:12:12.882 -08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-02-12 12:12:12.882 -08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-02-12 12:12:12.882 -08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-02-12 12:12:12.882 -08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-02-12 12:12:12.882 -08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-02-12 12:12:12.882 -08:00 [DBG] Executing controller factory for controller flight_data_server.Controllers.FlightDataController (flight_data_server)
+2023-02-12 12:12:12.891 -08:00 [INF] Entity Framework Core 6.0.13 initialized 'FlightDataDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.13' with options: None
+2023-02-12 12:12:12.891 -08:00 [DBG] Executed controller factory for controller flight_data_server.Controllers.FlightDataController (flight_data_server)
+2023-02-12 12:12:12.892 -08:00 [DBG] Attempting to bind parameter 'flighData' of type 'flight_data_server.Models.FlightData.FlightData' ...
+2023-02-12 12:12:12.892 -08:00 [DBG] Attempting to bind parameter 'flighData' of type 'flight_data_server.Models.FlightData.FlightData' using the name '' in request data ...
+2023-02-12 12:12:12.892 -08:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-02-12 12:12:12.893 -08:00 [DBG] Connection id "0HMOD6KB80AG3", Request id "0HMOD6KB80AG3:00000002": started reading request body.
+2023-02-12 12:12:12.893 -08:00 [DBG] Connection id "0HMOD6KB80AG3", Request id "0HMOD6KB80AG3:00000002": done reading request body.
+2023-02-12 12:12:12.893 -08:00 [DBG] JSON input formatter succeeded, deserializing to type 'flight_data_server.Models.FlightData.FlightData'
+2023-02-12 12:12:12.894 -08:00 [DBG] Done attempting to bind parameter 'flighData' of type 'flight_data_server.Models.FlightData.FlightData'.
+2023-02-12 12:12:12.894 -08:00 [DBG] Done attempting to bind parameter 'flighData' of type 'flight_data_server.Models.FlightData.FlightData'.
+2023-02-12 12:12:12.894 -08:00 [DBG] Attempting to validate the bound parameter 'flighData' of type 'flight_data_server.Models.FlightData.FlightData' ...
+2023-02-12 12:12:12.894 -08:00 [DBG] Done attempting to validate the bound parameter 'flighData' of type 'flight_data_server.Models.FlightData.FlightData'.
+2023-02-12 12:12:16.154 -08:00 [DBG] 'FlightDataDBContext' generated a temporary value for the property 'Id.FlightData'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-12 12:12:16.154 -08:00 [DBG] Context 'FlightDataDBContext' started tracking 'FlightData' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-12 12:12:16.154 -08:00 [DBG] SaveChanges starting for 'FlightDataDBContext'.
+2023-02-12 12:12:16.156 -08:00 [DBG] DetectChanges starting for 'FlightDataDBContext'.
+2023-02-12 12:12:16.156 -08:00 [DBG] DetectChanges completed for 'FlightDataDBContext'.
+2023-02-12 12:12:16.156 -08:00 [DBG] Opening connection to database 'flight-database' on server 'tcp:flight-database.database.windows.net,1433'.
+2023-02-12 12:12:16.156 -08:00 [DBG] Opened connection to database 'flight-database' on server 'tcp:flight-database.database.windows.net,1433'.
+2023-02-12 12:12:16.156 -08:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-02-12 12:12:16.228 -08:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-02-12 12:12:16.229 -08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-02-12 12:12:16.229 -08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-02-12 12:12:16.229 -08:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Double), @p2='?' (DbType = Double), @p3='?' (DbType = Double), @p4='?' (DbType = DateTime2), @p5='?' (DbType = Double), @p6='?' (DbType = Double), @p7='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [FlightData] ([AirlinerID], [Altitude], [GroundSpeed], [Latitude], [LoggingTime], [Longitude], [Throttle], [TrueAirSpeed])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+SELECT [Id]
+FROM [FlightData]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2023-02-12 12:12:16.301 -08:00 [INF] Executed DbCommand (72ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Double), @p2='?' (DbType = Double), @p3='?' (DbType = Double), @p4='?' (DbType = DateTime2), @p5='?' (DbType = Double), @p6='?' (DbType = Double), @p7='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [FlightData] ([AirlinerID], [Altitude], [GroundSpeed], [Latitude], [LoggingTime], [Longitude], [Throttle], [TrueAirSpeed])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+SELECT [Id]
+FROM [FlightData]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2023-02-12 12:12:16.303 -08:00 [DBG] The foreign key property 'FlightData.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2023-02-12 12:12:16.303 -08:00 [DBG] A data reader was disposed.
+2023-02-12 12:12:16.303 -08:00 [DBG] Committing transaction.
+2023-02-12 12:12:16.383 -08:00 [DBG] Committed transaction.
+2023-02-12 12:12:16.383 -08:00 [DBG] Closing connection to database 'flight-database' on server 'tcp:flight-database.database.windows.net,1433'.
+2023-02-12 12:12:16.383 -08:00 [DBG] Closed connection to database 'flight-database' on server 'tcp:flight-database.database.windows.net,1433'.
+2023-02-12 12:12:16.383 -08:00 [DBG] Disposing transaction.
+2023-02-12 12:12:16.383 -08:00 [DBG] An entity of type 'FlightData' tracked by 'FlightDataDBContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-12 12:12:16.384 -08:00 [DBG] SaveChanges completed for 'FlightDataDBContext' with 1 entities written to the database.
+2023-02-12 12:12:16.384 -08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-02-12 12:12:16.384 -08:00 [DBG] No information found on request to perform content negotiation.
+2023-02-12 12:12:16.384 -08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-02-12 12:12:16.384 -08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-02-12 12:12:16.384 -08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-02-12 12:12:16.384 -08:00 [INF] Executing OkObjectResult, writing value of type 'flight_data_server.Models.APIResponse'.
+2023-02-12 12:12:16.387 -08:00 [INF] Executed action flight_data_server.Controllers.FlightDataController.PostFlightData (flight_data_server) in 3505.1039ms
+2023-02-12 12:12:16.387 -08:00 [INF] Executed endpoint 'flight_data_server.Controllers.FlightDataController.PostFlightData (flight_data_server)'
+2023-02-12 12:12:16.388 -08:00 [DBG] Connection id "0HMOD6KB80AG3" completed keep alive response.
+2023-02-12 12:12:16.388 -08:00 [DBG] 'FlightDataDBContext' disposed.
+2023-02-12 12:12:16.388 -08:00 [INF] Request finished HTTP/1.1 POST https://localhost:7152/api/FlightData application/json 183 - 200 - application/json;+charset=utf-8 3507.6262ms
+2023-02-12 12:12:16.388 -08:00 [DBG] Connection id "0HMOD6KB80AG3" received FIN.
+2023-02-12 12:12:16.393 -08:00 [DBG] Connection id "0HMOD6KB80AG3" sending FIN because: "The client closed the connection."
+2023-02-12 12:12:16.394 -08:00 [DBG] Connection id "0HMOD6KB80AG3" disconnecting.
+2023-02-12 12:12:16.396 -08:00 [DBG] Connection id "0HMOD6KB80AG3" stopped.
+2023-02-12 12:12:19.449 -08:00 [DBG] Connection id "0HMOD6KB80AG4" accepted.
+2023-02-12 12:12:19.449 -08:00 [DBG] Connection id "0HMOD6KB80AG4" started.
+2023-02-12 12:12:19.449 -08:00 [DBG] Connection id "0HMOD6KB80AG4" received FIN.
+2023-02-12 12:12:19.450 -08:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-02-12 12:12:19.451 -08:00 [DBG] Connection id "0HMOD6KB80AG4" stopped.
+2023-02-12 12:12:19.451 -08:00 [DBG] Connection id "0HMOD6KB80AG4" sending FIN because: "The Socket transport's send loop completed gracefully."
